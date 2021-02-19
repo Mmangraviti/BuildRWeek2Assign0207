@@ -4,7 +4,7 @@ Title: Building R Packages Final Assignment Reading US Fatality Analysis Reporti
 Version: 0.1.0
 Author: Mary Mangraviti <mmangraviti@aol.com>
 Maintainer: Mary Mangraviti <mmangraviti@aol.com>
-Description: This package reads data from US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, 
+Description: This fine package reads data from US National Highway Traffic Safety Administration's Fatality Analysis Reporting System, 
     which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
 License: CC0
 Encoding: UTF-8
