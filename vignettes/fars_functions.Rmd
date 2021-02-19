@@ -1,0 +1,53 @@
+---
+title: "fars_functions"
+author: Mary Mangraviti
+date: "2021-02-16"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{fars_functions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(BuildRWeek2Assign0207)
+```
+## Oveview
+Data in this package is taken from 2013-2015 US National Highway Traffic Safety Administration's Fatality Analysis Reporting System,
+which is a nationwide census providing the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+
+## Filenames
+Three data files are available in this package. They are in the inst\extdata folders 
+accident_2013.csv.bz2
+accident_2014.csv.bz2
+accident_2015.csv.bz2
+
+## Summary Reports for a single year
+The user can get a summary report for one year for 2013-2015 inclusive
+
+``` {r  messages = FALSE, eval = TRUE}
+fars_summarize_years(2013)
+```
+
+
+## Summary Reports for a multiple years
+The user can get a summary report for a vector of years for 2013-2015 inclusive
+
+```{r  messages = FALSE, eval = TRUE}
+fars_summarize_years(c(2013,2014))
+```
+
+## Maps of Incidents by state 
+The user can also produce a map of incidents by Year for An integer State Numbr
+
+```{r  messages = FALSE, eval = TRUE}
+fars_map_state(1,2015)
+```
