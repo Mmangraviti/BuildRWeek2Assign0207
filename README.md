@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/Mmangraviti/BuildRWeek2Assign0207.svg?branch=main)](https://travis-ci.com/Mmangraviti/BuildRWeek2Assign0207)
 <!-- badges: end -->
 
 The goal of BuildRWeek2Assign0207 is to read Data is taken from
@@ -66,4 +68,3 @@ fars_map_state(1,2015)
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
-# BuildRWeek2Assign0207
